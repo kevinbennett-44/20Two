@@ -1,28 +1,32 @@
 @charset "UTF-8";
 
 .logo {
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 800px;
+	max-height: 800px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2.4em;
+	margin-bottom: -4.2em;
+	/*box-shadow: 0px 20px 120px 0px rgba(0, 0, 0, 0.10);*/
+	background: transparent;
 }
 
 @media screen and (max-width: 800px) {
 	.logo	{
-		max-height: 100px;
-		max-width: 100px;
+		max-height: 400px;
+		max-width: 400px;
+		margin-bottom: -2.2em;
+		/*box-shadow: 0px 20px 120px 0px rgba(0, 0, 0, 0.10);*/
 	}
 }
 
 .background {
-	background-color: #f7f4e8;
+	background-color: #758874;
 }
 
 body {
 	margin-top: 0px;
-	background-color: #f7f4e8;
+	background-color: #758874;
 }
 
 .container	{
@@ -46,7 +50,7 @@ body {
 	padding-bottom: 1em;
 	margin-top: 1em;
 	margin-bottom: 0px;
-	background-color: #f7f4e8;
+	background-color: none;
 	/*box-shadow: 0px 65px 55px -50px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -57,20 +61,20 @@ body {
 }
 
 h1 {
-	font-family: 'Be Vietnam', sans-serif;
-	font-weight: 600;
-	letter-spacing: -0.02em;
+	font-family: 'poppins', sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.02em;
 	line-height: 100%;
 	margin-top: 0.5em;
 	margin-bottom: 0.2em;
-	color: #000000;
+	color: #fff;
 	font-size: 1.4em;
 	text-align: center;
 }
 
 @media screen and (max-width: 420px) {
 	h1	{
-		font-weight: 600;
+		font-weight: 500;
 		font-size: 1.2em;
 		line-height: 100%;
 	}
@@ -126,7 +130,7 @@ p {
 	line-height: 160%;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	color: #3C3B3A;
+	color: #fff;
 	text-align: center;
 }
 
@@ -139,14 +143,13 @@ p {
 }
 
 img {
-	background-color: none;
-	margin-left: 0;
 	margin-top: 10px;
 	width: 100%;
 	height: auto;
 	display: block;
 	vertical-align: left;
 	border-radius: 8px;
+	background: transparent;
 }
 
 .center {
@@ -207,8 +210,8 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
-	color: #000;
+	text-decoration: underline;
+	color: #fff;
 	/*cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3174/cursor.png), default;*/
 }
 
